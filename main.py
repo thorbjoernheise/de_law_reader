@@ -5,9 +5,9 @@ import pytesseract
 pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'
 
 # Configuration
-image_path = 'BGBL_Test.png'
+image_path = 'output/page_1.tif'
 output_filename = "output.txt"
-custom_config = '--oem 3 --psm 6 -l deu -c tessedit_write_images=true'
+custom_config = '--oem 1 --psm 6 -l deu -c tessedit_write_images=false'
 
 # IMG
 img = Image.open(image_path)

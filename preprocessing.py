@@ -28,9 +28,9 @@ def process_pdf(input_pdf, output_folder):
     pdf_document.close()
 
 if __name__ == "__main__":
-    # Specify the input PDF file and output folder
-    input_pdf_file = "input.pdf"
-    output_folder_path = "output_folder"
+    # Configuration
+    input_pdf_file = "input/bgbl1_1949_5.pdf"
+    output_folder_path = "output"
 
     # Process the PDF and save each page as a TIFF file
     process_pdf(input_pdf_file, output_folder_path)
