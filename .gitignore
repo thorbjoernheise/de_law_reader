@@ -1,8 +1,7 @@
-input/
-output/
+bgbl/input/
+bgbl/output/
 logs/
 
-output.txt
 gesetze_output.html
 testflask.py
 gesetze.db
