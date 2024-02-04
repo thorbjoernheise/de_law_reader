@@ -21,6 +21,7 @@ def main():
         """
         OCR
         """
+        
         for tiff_file in os.listdir(output_folder):
             if tiff_file.endswith(".tif"):
                 tiff_path = os.path.join(output_folder, tiff_file)
