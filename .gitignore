@@ -1,5 +1,7 @@
 input/
 output/
+logs/
+
 output.txt
 gesetze_output.html
 testflask.py
